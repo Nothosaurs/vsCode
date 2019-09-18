@@ -166,6 +166,7 @@
 }
 
 /* canvas */
-canvas {
-    border: 1px solid black;
+#starrySky{
+    width: 100%;
+    height: 200px;
 }

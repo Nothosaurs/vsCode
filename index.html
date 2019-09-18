@@ -7,11 +7,12 @@
     <title>学习</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/calendar.css">
 </head>
 
 <body>
     <header>
-        header
+        <canvas id="starrySky"></canvas>
     </header>
     <nav class="nav">
         <a class="nav-a" href="#">1</a>
@@ -23,7 +24,9 @@
         <a class="nav-a" href="#">7</a>
     </nav>
     <section class="main">
-        <aside class="main-aside">aside</aside>
+        <aside class="main-aside">
+            <div id="cal-wrap"></div>
+        </aside>
         <article>
             <header>article-header</header>
             <div>
@@ -34,7 +37,10 @@
     </section>
     <footer>footer</footer>
 </body>
+<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="js/base.js"></script>
 <script src="js/canvasBase.js"></script>
+<script src="js/calendar.js"></script>
 
 </html>

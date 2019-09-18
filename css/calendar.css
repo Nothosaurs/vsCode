@@ -1,0 +1,53 @@
+#cal-wrap {
+    width: 280px;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px;
+}
+
+.cal-title {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 100%;
+    background: #5ea6e0;
+}
+
+.cal-left-btn,
+.cal-right-btn {
+    cursor: pointer;
+}
+
+#cal-wrap>span {
+    width: 38px;
+    height: 38px;
+    margin: 1px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+#cal-wrap>.week {
+    color: #000;
+}
+
+.past,
+.next {
+    background: #999;
+}
+
+.now,
+.fur {
+    background: #5ea6e0;
+}
+
+.fur {
+    opacity: 0.5;
+}
+
+.today {
+    background: #ff7875;
+}
